@@ -16,7 +16,7 @@ function BucketForm(props) {
     }
 
     props.onSubmit({
-      id: Math.random(Math.floor() * 1000),
+      id: Math.floor(Math.random() * 1000),
       text: input,
       eagerness: eagerness,
     });
